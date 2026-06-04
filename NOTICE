@@ -1,0 +1,29 @@
+RTL Latency Audit Method
+Copyright (c) 2026 John Bagshaw
+Licensed under the MIT License (see LICENSE).
+
+This repository is a methodology writeup. It analyzes, but does not
+redistribute, the following third-party open-source projects. Their code
+remains governed by their own licenses.
+
+=============================================================================
+Corundum
+  https://github.com/corundum/corundum
+  Created by Alex Forencich and contributors.
+  Repository root: BSD-2-Clause
+    Copyright (c) 2019-2023, The Regents of the University of California
+  PCIe RTL library files (including the audited module dma_if_pcie_rd.v):
+    MIT License, Copyright (c) 2021 Alex Forencich
+
+  The audit reviews unmodified public Corundum source. No Corundum source is
+  redistributed here. Any reuse of Corundum's code must retain its copyright
+  notices, conditions, and disclaimer as required by the licenses above.
+=============================================================================
+cocotbext-pcie
+  https://github.com/alexforencich/cocotbext-pcie
+  Created by Alex Forencich.
+  MIT License, Copyright (c) Alex Forencich
+
+  Used as PCIe simulation tooling for the dynamic-verification step. Not
+  redistributed here.
+=============================================================================
