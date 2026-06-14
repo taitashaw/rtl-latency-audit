@@ -6,6 +6,8 @@ That gap between "the transaction finished" and "the bytes are where the next st
 
 By John Bagshaw, ShawSilicon.
 
+> **What tier this shows:** this demonstrates the audit *method* on third-party public RTL at the synthesis tier — out-of-context Fmax, exercised simulation, bound-and-fired assertions. A paid engagement goes deeper on your own design: post-route closure, per-stage latency budget, and a re-closure plan. That full depth, measured end to end, is the worked report at https://shawsilicon.ai/fpga-audit/sample-report.
+
 ## What the audit covers
 
 A performance or latency claim about a PCIe/DMA design is cheap to assert and expensive to be wrong about, because the challenge usually arrives late: during a customer evaluation or after tapeout. The audit replaces an assertable claim with a defensible one. Concretely, an audit produces:
